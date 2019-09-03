@@ -1,10 +1,9 @@
 # WDCC_website
-<h1>Website for University of Auckland Web Development &amp; Consulting Club</h1>
+<h3>Website for University of Auckland Web Development Consulting Club</h3>
 
-<ul>
-	Get git read and pull this project down
-	Get apache/nginx ready and set up the environment
-	Be able to run this project on virtual host
-</ul>
+1. Get git read and pull this project down
+2. Get apache/nginx ready and set up the environment
+3. Be able to run this project on virtual host
+
 
 GOOD LUCK
