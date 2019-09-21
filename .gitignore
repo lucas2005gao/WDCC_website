@@ -50,3 +50,5 @@ application/logs/*
 /vendor/
 
 /application/config/database.php
+
+/.user.ini
