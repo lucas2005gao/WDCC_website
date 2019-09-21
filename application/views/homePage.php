@@ -33,10 +33,6 @@
 <!-- =============================================================== -->
 <!-- ======================== EMILY ======================= -->
 <!-- =============================================================== -->
-<p>type code here</p>
-
-
-
 </section>>
 <footer style="position: relative; margin-bottom: 0px; clear: both">
 <section style="background:grey">
@@ -65,13 +61,13 @@
         <p>Upcoming Events</p>
         <div class="row">
           <div class="col">
-            <img src="/assets/Image-Coming-Soon.png">
+            <img src="https://image.flaticon.com/icons/svg/145/145802.svg">
           </div>
           <div class="col">
-            <img src="/assets/Image-Coming-Soon.png">
+            <img src="https://image.flaticon.com/icons/svg/906/906359.svg">
           </div>
           <div class="col">
-            <img src="/assets/Image-Coming-Soon.png">
+            <img src="https://image.flaticon.com/icons/svg/187/187209.svg">
           </div>
         </div>
       </div>
@@ -79,7 +75,7 @@
   </div>
   <hr style="max-width:85%">
   <div class="container" style="padding-bottom: 50px; padding-top: 20px">
-    <p style="text-align:center">© Copyright 2019 NZCSA All Rights Reserved</p>
+    <p style="text-align:center">© Copyright 2019 WDCC All Rights Reserved</p>
   </div>
 </footer>
 
