@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="<?=base_url()?>/assets/css/bootstrap.css">
+	<link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.css">
 </head>
 
 <ul class="nav nav-tabs">
@@ -22,5 +22,5 @@
 	</li>
 </ul>
 
-<body>
+<body style="min-height: 100%">
 	
