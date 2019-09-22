@@ -1,3 +1,7 @@
+<!-- Finished the Header navigation bar container -->
+  </div>
+</div>
+
 <footer style="position: relative; margin-bottom: 0px; clear: both; min-height:300px; background:grey; margin-top: -300px;">
     <!-- <section style="background:grey"> -->
     <!-- bottom section taht contains information to other links-->
