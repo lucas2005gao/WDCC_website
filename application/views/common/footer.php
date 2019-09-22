@@ -1,4 +1,4 @@
-<footer style="position: relative; margin-bottom: 0px; clear: both; height:300px; background:grey; margin-top: -300px">
+<footer style="position: relative; margin-bottom: 0px; clear: both; min-height:300px; background:grey; margin-top: -300px;">
     <!-- <section style="background:grey"> -->
     <!-- bottom section taht contains information to other links-->
         <div class = "container" style="max-height:100%">
@@ -45,7 +45,7 @@
             <hr style="max-width:100%; padding-top: 2px; padding-bottom:2px; margin:0">
     
             <div class="container">
-                <p style="text-align:center; padding-top: 1rem">© Copyright 2019 WDCC All Rights Reserved</p>
+                <p style="text-align:center; padding-top: 1rem; padding-bottom:2rem; margin-bottom:0">© Copyright 2019 WDCC All Rights Reserved</p>
             </div>
         </div>
     <!-- </section> -->
