@@ -26,4 +26,8 @@ class Welcome extends CI_Controller {
 	
 
 	}
+
+	public function loadAboutUs(){
+		$this->load->view('aboutUsPage');
+	}
 }
