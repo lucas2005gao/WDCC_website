@@ -67,21 +67,21 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://i1.wp.com/pna.co.za/blog/wp-content/uploads/2017/08/Blog_3.png?fit=750%2C375&ssl=1" alt="..." height="400" width="1600">
+        <img src="https://i1.wp.com/pna.co.za/blog/wp-content/uploads/2017/08/Blog_3.png?fit=750%2C375&ssl=1" alt="..." height="400" width="100%">
         <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://i.kinja-img.com/gawker-media/image/upload/s--uGlCJcn5--/c_scale,f_auto,fl_progressive,q_80,w_800/zskle8pr6kignbkaz06j.jpg" alt="..." height="400" width="1600">
+        <img src="https://i.kinja-img.com/gawker-media/image/upload/s--uGlCJcn5--/c_scale,f_auto,fl_progressive,q_80,w_800/zskle8pr6kignbkaz06j.jpg" alt="..." height="400" width="100%">
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://mymodernmet.com/wp/wp-content/uploads/archive/oe-oqDrb4nkmDH0vA90Z_PaperSpiral5.jpg" alt="..." height="400" width="1600">
+        <img src="https://mymodernmet.com/wp/wp-content/uploads/archive/oe-oqDrb4nkmDH0vA90Z_PaperSpiral5.jpg" alt="..." height="400" width="100%">
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
