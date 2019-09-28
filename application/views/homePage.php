@@ -148,7 +148,7 @@
     </div>
 
     <div class="col" style="text-align:center">
-      <img src="https://image.flaticon.com/icons/svg/599/599995.svg" alt="event icon" style="width:50px;height:50px;">
+      <img src="https://image.flaticon.com/icons/svg/1517/1517470.svg" alt="event icon" style="width:50px;height:50px;">
       <h4> Our Event </h4>
       <p> Click the button below to checkout more of our amazing events!</p>
       <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
