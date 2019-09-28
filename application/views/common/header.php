@@ -2,7 +2,9 @@
 <html style="height:100%; margin:0; padding:0">
 <head>
 	<meta charset="utf-8">
+
 	<link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.css">
+
 </head>
 
 <div id="container" style="min-height:100%; position:relative">
