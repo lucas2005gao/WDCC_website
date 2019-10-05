@@ -143,28 +143,28 @@
     <div class="col" style="text-align:center">
       <img src="https://image.flaticon.com/icons/svg/1256/1256650.svg" alt="team icon" style="width:50px;height:50px;">
       <h4> Our Team </h4>
-      <p>Click the button below to find out more of our team.</p>
+      <p style="min-height:40%">Click the button below to find out more of our team.</p>
       <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
     </div>
 
     <div class="col" style="text-align:center">
       <img src="https://image.flaticon.com/icons/svg/1517/1517470.svg" alt="event icon" style="width:50px;height:50px;">
       <h4> Our Event </h4>
-      <p> Click the button below to checkout more of our amazing events!</p>
+      <p style="min-height:40%"> Click the button below to checkout more of our amazing events!</p>
       <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
     </div>
 
     <div class="col" style="text-align:center">
       <img src="https://image.flaticon.com/icons/svg/1441/1441932.svg" alt="sponsor icon" style="width:50px;height:50px;">
       <h4> Our Sponsor </h4>
-      <p> discription of the team </p>
+      <p style="min-height:40%"> discription of the team </p>
       <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
     </div>
 
     <div class="col" style="text-align:center">
       <img src="https://image.flaticon.com/icons/svg/1894/1894482.svg" alt="membership icon" style="width:50px;height:50px;">
       <h4> Our Membership </h4>
-      <p> discription of the team </p>
+      <p style="min-height:40%"> discription of the team </p>
       <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
     </div>
   </div>
