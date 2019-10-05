@@ -12,72 +12,9 @@
 <div id="container" style="min-height:100%; position:relative">
   <div id="main" style="overflow:auto; padding-bottom: 300px">
 
-<!-- <nav style="z-index: 99">
-  <ul class="nav nav-tabs">
-      <li class="col-xs-12 col-sm-6 col-md-6 col-lg-9">
-        <a href="#">
-          <img src="/assets/coming-soon.jpg" style="width:50px;height:50px;">
-        </a>
-      </li>
-      <li class="nav-item col-0.5">
-        <a class="nav-link active" href="#">Home</a>
-      </li>
-      <li class="nav-item col-0.5">
-        <a class="nav-link" href="<?php  echo base_url(); ?>welcome/loadAboutUs">About Us</a>
-      </li>
-      <li class="nav-item col-0.5">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-</ul>
-</nav> -->
 
-
-<!-- <section calss="slider">
-	<ul class="slides">
-      <li>
-        <img src="https://i1.wp.com/expresstricks.com/wp-content/uploads/2019/04/beautiful-picture-1.jpg?fit=1500%2C1000"> 
-        <div class="caption center-align">
-          <h3>Welcome to WebDevelopment&Consulting Club!</h3>
-          <h5 class="light grey-text text-lighten-3 hile-on small-only">President is really hanssome</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://s7img.ftdi.com/is/image/ProvideCommerce/PF_18_R037_ROSE_SUMMER_V1_ALT1_PF_SITE_PLP_BANNER?&$proflowers-hero-banner-lv$"> 
-        <div class="caption left-align">
-          <h3>Learn webDevelopment easily!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://iso.500px.com/wp-content/uploads/2016/04/stock-photo-150595123.jpg"> 
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      
-    </ul>
-	
-</section>
-
-
-<script src="https://kit.fontawesome.com/e1573a2b30.js" crossorigin="anonymous"></script>
-
-<script>
-		//slider
-	/*const slider = document.querySelector('.slider');
-	M.Slider.init(slider,{
-		indicators: flase,
-		height: 500,
-		transition: 500,
-		interval: 6000
-	});*/
-	  $(document).ready(function(){
-    $('.slider').slider();
-  });
-
-</script> -->
-
+<!-- ================================================================================= -->
+<!-- ============================ carousel and Nav Bar together======================= -->
 <div>
   <style>
     .un {
@@ -166,6 +103,7 @@
 
   </div>
 </div>
+<!-- ================================================================================= -->
 
 
 <!-- =============================================================== -->
