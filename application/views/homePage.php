@@ -4,10 +4,19 @@
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.css">
+  <link rel="stylesheet" href="<?=base_url()?>assets/css/style.css">
 
 </head>
 <body style="height: 100%">
   
+  <!--PRELOADER-->
+  <div id="preloader">
+    <p> Loading... </p>
+      <div class="spinner-border" style="width: 10rem; height: 10rem;" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+  </div>
+  <!--/.PRELOADER END-->
 
 <div id="container" style="min-height:100%; position:relative">
   <div id="main" style="overflow:auto; padding-bottom: 300px">
@@ -375,7 +384,6 @@
 <!-- =============================================================== -->
 <p>type code here</p>
 <!-- =============================================================== -->
-
 
 
 <?php 
