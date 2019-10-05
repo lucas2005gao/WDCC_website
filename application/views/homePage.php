@@ -114,14 +114,14 @@
     </div>
 
     <style>
-      .button span {
+      .hoverButton span {
         cursor: pointer;
         display: inline-block;
         position: relative;
         transition: 0.5s;
       }
 
-      .button span:after {
+      .hoverButton span:after {
         content: '\00bb';
         position: absolute;
         opacity: 0;
@@ -130,11 +130,11 @@
         transition: 0.5s;
       }
 
-      .button:hover span {
+      .hoverButton:hover span {
         padding-right: 25px;
       }
 
-      .button:hover span:after {
+      .hoverButton:hover span:after {
         opacity: 1;
         right: 0;
       }
@@ -144,28 +144,28 @@
       <img src="https://image.flaticon.com/icons/svg/1256/1256650.svg" alt="team icon" style="width:50px;height:50px;">
       <h4> Our Team </h4>
       <p style="min-height:40%">Click the button below to find out more of our team.</p>
-      <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
+      <button type="button" class="hoverButton btn btn-secondary"><span>Learn More</span></button>
     </div>
 
     <div class="col" style="text-align:center">
       <img src="https://image.flaticon.com/icons/svg/1517/1517470.svg" alt="event icon" style="width:50px;height:50px;">
       <h4> Our Event </h4>
       <p style="min-height:40%"> Click the button below to checkout more of our amazing events!</p>
-      <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
+      <button type="button" class="hoverButton btn btn-secondary"><span>Learn More</span></button>
     </div>
 
     <div class="col" style="text-align:center">
       <img src="https://image.flaticon.com/icons/svg/1441/1441932.svg" alt="sponsor icon" style="width:50px;height:50px;">
       <h4> Our Sponsor </h4>
       <p style="min-height:40%"> discription of the team </p>
-      <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
+      <button type="button" class="hoverButton btn btn-secondary"><span>Learn More</span></button>
     </div>
 
     <div class="col" style="text-align:center">
       <img src="https://image.flaticon.com/icons/svg/1894/1894482.svg" alt="membership icon" style="width:50px;height:50px;">
       <h4> Our Membership </h4>
       <p style="min-height:40%"> discription of the team </p>
-      <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
+      <button type="button" class="hoverButton btn btn-secondary"><span>Learn More</span></button>
     </div>
   </div>
 
