@@ -109,7 +109,7 @@
       <h2 style="text-align: center;">ABOUT US</h2> 
    
       <!-- detail explanation  -->
-      <p style="text-align:center">XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX XXXXXXX XXXXXXXXXX</p>
+      <p style="text-align:center; padding-right:30%; padding-left:30%">XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX XXXXXXX XXXXXXXXXX</p>
     
     </div>
 
