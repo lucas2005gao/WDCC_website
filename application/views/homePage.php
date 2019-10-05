@@ -43,7 +43,7 @@
   <nav class="navbar navbar-expand-sm navbar-light" style="z-index:99">
     <a class="navbar-brand" style="color:white" href="#">
       <a class="col-lg-9 col-xs-3" href="#">
-            <img src="/assets/coming-soon.jpg" style="width:50px;height:50px;">
+            <img src="/assets/Image-Coming-Soon.png" style="width:50px;height:50px;">
           </a>
     </a>
     <div class="collapse navbar-collapse col-lg-3 col-xs-3">
