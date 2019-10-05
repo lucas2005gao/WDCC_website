@@ -60,8 +60,14 @@
 <script src="<?=base_url()?>assets/js/jquery-3.4.1.min.js"></script>
 <script src="<?=base_url()?>assets/js/bootstrap.js"></script>
 
+<style>
+    .shadow{
+        box-shadow:none !important;
+    }
+</style>
+
 <!-- Start of HubSpot Embed Code --> 
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6504848.js"></script> 
+<script id="hs-script-loader" async defer src="//js.hs-scripts.com/6504848.js"></script> 
 <!-- End of HubSpot Embed Code -->
 
 </body>
