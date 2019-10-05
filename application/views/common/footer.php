@@ -59,6 +59,8 @@
 
 <script src="<?=base_url()?>assets/js/jquery-3.4.1.min.js"></script>
 <script src="<?=base_url()?>assets/js/bootstrap.js"></script>
+<script src="<?=base_url()?>assets/js/main.js"></script>
+
 
 <!-- Start of HubSpot Embed Code --> 
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6504848.js"></script> 
