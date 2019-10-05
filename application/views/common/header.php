@@ -20,7 +20,7 @@
         <a class="nav-link active" href="#">Home</a>
       </li>
       <li class="nav-item col-0.5">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="<?php  echo base_url(); ?>welcome/loadAboutUs">About Us</a>
       </li>
       <li class="nav-item col-0.5">
         <a class="nav-link" href="#">Contact</a>
