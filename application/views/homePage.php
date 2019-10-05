@@ -1,7 +1,7 @@
 <!doctype html>
 <html style="height:100%; margin:0; padding:0">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.css">
 
