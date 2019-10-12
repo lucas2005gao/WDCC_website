@@ -224,37 +224,65 @@
         right: 0;
       }
   </style>
-  <div class="row" style="padding-left: 30px; padding-right:30px; padding-top:50px; padding-bottom: 80px">
-    <div class="col" style="text-align:center">
+
+
+
+  <div class="container-fluid">
+
+ <!--  <div class="row text-center equal-height-columns" style="padding-left: 30px; padding-right:30px; padding-top:50px; padding-bottom: 80px"> -->
+ <div class="row" style="padding-left: 30px; padding-right:30px; padding-top:50px; padding-bottom: 80px">
+
+    <div class="col-lg-3" style="text-align:center">
+      <div class="equal-column-content">
       <img src="https://image.flaticon.com/icons/svg/1256/1256650.svg" alt="team icon" style="width:50px;height:50px;">
       <h4> Our Team </h4>
       <p style="min-height:40%">Click the button below to find out more of our team.</p>
       <button type="button" class="hoverButton btn btn-secondary"><span>Learn More</span></button>
     </div>
+</div>
 
-    <div class="col" style="text-align:center">
+
+    <div class="col-lg-3" style="text-align:center">
+
+       <div class="equal-column-content">
+
       <img src="https://image.flaticon.com/icons/svg/1517/1517470.svg" alt="event icon" style="width:50px;height:50px;">
       <h4> Our Event </h4>
       <p style="min-height:40%"> Click the button below to checkout more of our amazing events!</p>
       <button type="button" class="hoverButton btn btn-secondary"><span>Learn More</span></button>
     </div>
 
-    <div class="col" style="text-align:center">
+  </div>
+
+    <div class="col-lg-3" style="text-align:center">
+
+ <div class="equal-column-content">
+
       <img src="https://image.flaticon.com/icons/svg/1441/1441932.svg" alt="sponsor icon" style="width:50px;height:50px;">
       <h4> Our Sponsor </h4>
       <p style="min-height:40%"> discription of the team </p>
       <button type="button" class="hoverButton btn btn-secondary"><span>Learn More</span></button>
     </div>
 
-    <div class="col" style="text-align:center">
+</div>
+
+    <div class="col-lg-3" style="text-align:center">
+
+       <div class="equal-column-content">
+
       <img src="https://image.flaticon.com/icons/svg/1894/1894482.svg" alt="membership icon" style="width:50px;height:50px;">
       <h4> Our Membership </h4>
       <p style="min-height:40%"> discription of the team </p>
       <button type="button" class="hoverButton btn btn-secondary"><span>Learn More</span></button>
     </div>
+
+</div>
+
   </div>
 
 </div>
+
+
 <!-- =============================================================== -->
 
 
@@ -277,102 +305,101 @@
 <!-- <div class="row">
  -->
 
-<div class="container-fluid">  
-<div>
+ <div>
 <h1 class="text-center leader"> Member Profile </h1>
 </div>
 
 
 
- <div class="col d-flex justify-content-center">
-
- <div class="card-deck">
 
 
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-<div class="card-body p-3 mb-2 bg-light text-dark">Lucas Gao
-  
-  	
-		<h5>President</h5>
+<!-- <div class="col d-flex justify-content-center"> -->
+
+<div class="container-fluid p-3 mb-2 bg-light text-dark">
+
+		
+		
+
+	<div class="row">
+
+		<div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Lucas Gao
+
+			<h5>President</h5>
 		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+			<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class=" rounded-circle" alt="loading" width="100" height="100"> 
 
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+			<p>content of person</p>
+			<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+		</div>
+
+
+
+		<div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Will Zhang
+
+			<h5>Vice President</h5>
+		            
+			<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+
+			<p>content of person</p>
+			<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+		</div>
+
+
+		<div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Martin
+
+			<h5>Secretary</h5>
+		            
+			<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+
+			<p>content of person</p>
+			<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+
+
+
+		</div>
+
+<div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Kevin Ge
+
+			<h5>Treasurer</h5>
+		            
+			<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+
+			<p>content of person</p>
+			<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+
+</div>
+
+
+<div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Emily Yang
+
+			<h5>Leader of xxx</h5>
+		            
+			<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+
+			<p>content of person</p>
+			<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+
+
+
+</div>
+
+
+<div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Yujia Wu
+
+			<h5>Leader of xxx</h5>
+		            
+			<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+
+			<p>content of person</p>
+			<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+
 </div>
 
 
 
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-
-  <div class="card-body p-3 mb-2 bg-light text-dark">Will Zhang
-  	
-		<h5>Vice President</h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
-
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
  </div>
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-  <div class="card-body p-3 mb-2 bg-light text-dark">Martin
-  	
-		<h5>Secretary      </h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+ </div>
 
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
-
-</div>
-
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-  <div class="card-body p-3 mb-2 bg-light text-dark">Kevin Ge
-  	
-		<h5>Treasurer</h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
-
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
-
-</div>
-
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-  <div class="card-body p-3 mb-2 bg-light text-dark">Emily Yang
-  	
-		<h5>Leader of xxx </h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
-
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
-
-</div>
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-  <div class="card-body p-3 mb-2 bg-light text-dark">Yujia Wu
-  	
-		<h5>Leader of xxx </h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
-
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
-</div>
-
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-  
-
-
-<!-- </marquee> 
- -->
-
-<!-- </div>  -->
-
-</div>
-
-</div>
-</div>
 
 
 
