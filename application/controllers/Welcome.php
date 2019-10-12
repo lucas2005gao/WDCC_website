@@ -20,6 +20,19 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('homepage');
+
+
+		//$this->load->view('welcome_wdcc');
+		$this->load->view('homePage');
+	
+
+	}
+
+	public function loadAboutUs(){
+		$this->load->view('aboutUsPage');
+	}
+
+	public function loadContactUs(){
+		$this->load->view('contactUsPage');
 	}
 }

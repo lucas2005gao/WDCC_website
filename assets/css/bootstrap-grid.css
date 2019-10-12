@@ -15,6 +15,31 @@ html {
   box-sizing: inherit;
 }
 
+.pre-x-scrollable {
+  overflow-x: hidden;
+  display: inline-block;
+}
+
+/*.fixedHeight{
+  height:500px;
+  width:1000px;
+  overflow:hidden;
+}*/
+
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -56,6 +81,15 @@ html {
 }
 
 .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row1 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
