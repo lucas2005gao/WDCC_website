@@ -3,9 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-
-	<link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.css">
-
+	<link rel="stylesheet" href="<?=site_url()?>assets/css/bootstrap.css">
 </head>
 
 <div id="container" style="min-height:100%; position:relative">
