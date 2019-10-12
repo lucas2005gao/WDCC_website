@@ -1,4 +1,3 @@
-
 <!-- Finished the Header navigation bar container -->
   </div>
 </div>
