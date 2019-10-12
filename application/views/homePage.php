@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <?php 
   $this->load->view("/common/header");
@@ -8,6 +9,51 @@
 <!-- =============================================================== -->
 <p>type code here</p>
 <!-- =============================================================== -->
+=======
+<!doctype html>
+<html style="height:100%; margin:0; padding:0">
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.css">
+  <link rel="stylesheet" href="<?=base_url()?>assets/css/style.css">
+
+</head>
+<body style="height: 100%">
+  
+  <!--PRELOADER-->
+<!--   <div id="preloader">
+    <p> Loading... </p>
+      <div class="spinner-border" style="width: 10rem; height: 10rem;" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+  </div> -->
+  <!--/.PRELOADER END-->
+
+<div id="container" style="min-height:100%; position:relative">
+  <div id="main" style="overflow:auto; padding-bottom: 300px">
+
+<!-- <nav style="z-index: 99">
+  <ul class="nav nav-tabs">
+      <li class="col-xs-12 col-sm-6 col-md-6 col-lg-9">
+        <a href="#">
+          <img src="/assets/coming-soon.jpg" style="width:50px;height:50px;">
+        </a>
+      </li>
+      <li class="nav-item col-0.5">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item col-0.5">
+        <a class="nav-link" href="<?php  echo base_url(); ?>welcome/loadAboutUs">About Us</a>
+      </li>
+      <li class="nav-item col-0.5">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+</ul>
+</nav> -->
+
+
+>>>>>>> Stashed changes
 <!-- <section calss="slider">
 	<ul class="slides">
       <li>
@@ -500,8 +546,42 @@
  </div>
 
 
+<<<<<<< Updated upstream
 
 
+=======
+<!-- =============================================================== -->
+<!-- ======================== YUJIA ======================= -->
+<!-- =============================================================== -->
+<p>type code here</p>
+<!-- =============================================================== -->
+<?php
+$query = $this->db->get('users');
+foreach ($query->result() as $row)
+{
+        echo $row->first_name;
+}
+
+?>
+<?php
+$data = array(
+        'first_name' => $_GET['first_name'],
+        'last_name' => $_GET['last_name'],
+        'email' => $_GET['email'],
+        'university_username' => $_GET['university_username'],
+        'university_id' => $_GET['university_id'],
+        'degree' => $_GET['degree'],
+        'dob' => $_GET['dob'],
+);
+
+$this->db->insert('users', $data);
+?>
+<!-- =============================================================== -->
+<!-- ======================== KEVIN ======================= -->
+<!-- =============================================================== -->
+<p>type code here</p>
+<!-- =============================================================== -->
+>>>>>>> Stashed changes
 
 
 <?php 
