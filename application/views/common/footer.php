@@ -3,6 +3,9 @@
   </div>
 </div>
 
+
+
+
 <footer style="position: relative; margin-bottom: 0px; clear: both; min-height:300px; background:grey; margin-top: -300px;">
     <!-- <section style="background:grey"> -->
     <!-- bottom section taht contains information to other links-->
@@ -57,8 +60,16 @@
 </footer>
 
 
+
+
+
 <script src="<?=base_url()?>assets/js/jquery-3.4.1.min.js"></script>
-<script src="<?=base_url()?>assets/js/bootstrap.js"></script>
+
+
+
+<script class="disable"  src="<?=base_url()?>assets/js/bootstrap.js"></script>
+
+
 
 <!-- Start of HubSpot Embed Code --> 
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6504848.js"></script> 

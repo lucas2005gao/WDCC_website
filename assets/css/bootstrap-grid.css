@@ -32,11 +32,34 @@ html {
   overflow:hidden;
 }*/
 
+.disable{
+  display: none;
+  visibilty:hdden;
+}
+
 .row1{
   margin-bottom: : 20px;
 }
 
+.equal-column-content{
+  height:100%;
+}
 
+.equal-height-columns{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 button {
   border: none;

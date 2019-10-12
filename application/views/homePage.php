@@ -139,37 +139,65 @@
         right: 0;
       }
   </style>
-  <div class="row" style="padding-left: 30px; padding-right:30px; padding-top:50px; padding-bottom: 80px">
-    <div class="col" style="text-align:center">
+
+
+
+  <div class="container-fluid">
+
+ <!--  <div class="row text-center equal-height-columns" style="padding-left: 30px; padding-right:30px; padding-top:50px; padding-bottom: 80px"> -->
+ <div class="row" style="padding-left: 30px; padding-right:30px; padding-top:50px; padding-bottom: 80px">
+
+    <div class="col-lg-3" style="text-align:center">
+      <div class="equal-column-content">
       <img src="https://image.flaticon.com/icons/svg/1256/1256650.svg" alt="team icon" style="width:50px;height:50px;">
       <h4> Our Team </h4>
       <p>Click the button below to find out more of our team.</p>
       <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
     </div>
+</div>
 
-    <div class="col" style="text-align:center">
+
+    <div class="col-lg-3" style="text-align:center">
+
+       <div class="equal-column-content">
+
       <img src="https://image.flaticon.com/icons/svg/1517/1517470.svg" alt="event icon" style="width:50px;height:50px;">
       <h4> Our Event </h4>
       <p> Click the button below to checkout more of our amazing events!</p>
       <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
     </div>
 
-    <div class="col" style="text-align:center">
+  </div>
+
+    <div class="col-lg-3" style="text-align:center">
+
+ <div class="equal-column-content">
+
       <img src="https://image.flaticon.com/icons/svg/1441/1441932.svg" alt="sponsor icon" style="width:50px;height:50px;">
       <h4> Our Sponsor </h4>
       <p> discription of the team </p>
       <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
     </div>
 
-    <div class="col" style="text-align:center">
+</div>
+
+    <div class="col-lg-3" style="text-align:center">
+
+       <div class="equal-column-content">
+
       <img src="https://image.flaticon.com/icons/svg/1894/1894482.svg" alt="membership icon" style="width:50px;height:50px;">
       <h4> Our Membership </h4>
       <p> discription of the team </p>
       <button type="button" class="button btn btn-secondary"><span>Learn More</span></button>
     </div>
+
+</div>
+
   </div>
 
 </div>
+
+
 <!-- =============================================================== -->
 
 
