@@ -1,4 +1,3 @@
-
 <!-- Finished the Header navigation bar container -->
   </div>
 </div>
@@ -74,5 +73,3 @@
 <!-- End of HubSpot Embed Code -->
 
 </body>
-
-
