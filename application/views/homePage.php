@@ -39,7 +39,6 @@
 .demo a {
   padding-top: 60px;
 }
-
 .demo a span {
   position: absolute;
   top: 0;
@@ -75,7 +74,6 @@
 .demo a {
   padding-top: 60px;
 }
-
 .demo a span {
   position: absolute;
   top: 0;
@@ -205,7 +203,6 @@
         position: relative;
         transition: 0.5s;
       }
-
       .hoverButton span:after {
         content: '\00bb';
         position: absolute;
@@ -214,11 +211,9 @@
         right: -20px;
         transition: 0.5s;
       }
-
       .hoverButton:hover span {
         padding-right: 25px;
       }
-
       .hoverButton:hover span:after {
         opacity: 1;
         right: 0;
@@ -255,6 +250,8 @@
   </div>
 
 </div>
+</div>
+
 <!-- =============================================================== -->
 
 
@@ -263,116 +260,95 @@
 <!-- =============================================================== -->
 <!-- ======================== KEVIN ======================= -->
 <!-- =============================================================== -->
-<!-- <div class="mx-auto"> -->
-	<!-- <marquee>  -->
 
 
-    
-<!--  <pre class="pre-x-scrollable">
- -->
- <!-- container-fluid-->
-<!--  <div class="container"> -->
- 	 <!-- <div class="pre-x-scrollable"> -->
-
-<!-- <div class="row">
- -->
-
-<div class="container-fluid">  
 <div>
 <h1 class="text-center leader"> Member Profile </h1>
 </div>
 
+<div class="container-fluid p-3 mb-2 bg-light text-dark">
+
+  <div class="row">
+
+    <div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Lucas Gao
 
 
- <div class="col d-flex justify-content-center">
+      <h5>President</h5>
+                
+      <img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class=" rounded-circle" alt="loading" width="100" height="100"> 
 
- <div class="card-deck">
-
-
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-<div class="card-body p-3 mb-2 bg-light text-dark">Lucas Gao
-  
-  	
-		<h5>President</h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
-
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
-</div>
+      <p>content of person</p>
+      <p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+    </div>
 
 
 
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
+    <div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Will Zhang
 
-  <div class="card-body p-3 mb-2 bg-light text-dark">Will Zhang
-  	
-		<h5>Vice President</h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+      <h5>Vice President</h5>
+                
+      <img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
 
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+      <p>content of person</p>
+      <p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+    </div>
+
+
+    <div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Martin
+
+      <h5>Secretary</h5>
+                
+      <img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+
+      <p>content of person</p>
+      <p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+
+
+
+    </div>
+
+  <div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Kevin Ge
+
+      <h5>Treasurer</h5>
+                
+      <img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+
+      <p>content of person</p>
+      <p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+
+  </div>
+
+
+  <div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Emily Yang
+
+      <h5>Leader of xxx</h5>
+                
+      <img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+
+      <p>content of person</p>
+      <p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+
+
+
+  </div>
+
+
+  <div class="col-lg-2 p-3 mb-2 bg-light text-dark text-center">Yujia Wu
+
+      <h5>Leader of xxx</h5>
+                
+      <img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+
+      <p>content of person</p>
+      <p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
+
+  </div>
+
+
+
  </div>
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-  <div class="card-body p-3 mb-2 bg-light text-dark">Martin
-  	
-		<h5>Secretary      </h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
+ </div>
 
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
-
-</div>
-
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-  <div class="card-body p-3 mb-2 bg-light text-dark">Kevin Ge
-  	
-		<h5>Treasurer</h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
-
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
-
-</div>
-
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-  <div class="card-body p-3 mb-2 bg-light text-dark">Emily Yang
-  	
-		<h5>Leader of xxx </h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
-
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
-
-</div>
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-  <div class="card-body p-3 mb-2 bg-light text-dark">Yujia Wu
-  	
-		<h5>Leader of xxx </h5>
-		            
-		<img src="http://img.sj33.cn/uploads/allimg/201401/7-140126231522E0.jpg" class="rounded-circle" alt="loading" width="100" height="100"> 
-
-		<p>content of person</p>
-		<p><button class="btn btn-Info p-3 mb-2 bg-light text-dark">Contact</button></p>
-</div>
-
-<!-- <div class="col-lg-2 p-3 mb-2 bg-light text-dark"> -->
-  
-
-
-<!-- </marquee> 
- -->
-
-<!-- </div>  -->
-
-</div>
-
-</div>
-</div>
 
 
 

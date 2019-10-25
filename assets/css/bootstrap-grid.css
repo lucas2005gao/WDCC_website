@@ -20,12 +20,46 @@ html {
   display: inline-block;
 }
 
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+    margin:0px
+}
+
 /*.fixedHeight{
   height:500px;
   width:1000px;
   overflow:hidden;
 }*/
 
+.disable{
+  display: none;
+  visibilty:hdden;
+}
+
+.row1{
+  margin-bottom: : 20px;
+}
+
+.equal-column-content{
+  height:100%;
+}
+
+.equal-height-columns{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.equal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 button {
   border: none;
@@ -89,14 +123,6 @@ button {
   margin-left: -15px;
 }
 
-.row1 {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
 
 .no-gutters {
   margin-right: 0;
