@@ -22,51 +22,25 @@
 <!-- ================================================================================= -->
 <!-- ============================ carousel and Nav Bar together======================= -->
 
-<style>
-.demo a {
-  position: relative;
-  bottom: 20px;
-  left: 50%;
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  color: #fff;
-}
-.demo a:hover {
-  opacity: .5;
-}
-.demo a {
-  padding-top: 60px;
-}
-.demo a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 30px;
-  height: 30px;
-  margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box;
-}
-</style>
 <div id="container" style="min-height:100%; position:relative">
   <div id="main" style="overflow:auto; padding-bottom: 300px">
 
 <div>
  <style>
+@keyframes jump {
+  0% { top: 0; } 50% { top: 50px; } 100% { top: 0; }
+}
+
 .demo a {
-  position: relative;
-  bottom: 20px;
+  position: absolute;
+  bottom: 50px;
   left: 50%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: #fff;
+
 }
 .demo a:hover {
   opacity: .5;
@@ -74,19 +48,22 @@
 .demo a {
   padding-top: 60px;
 }
+
 .demo a span {
   position: absolute;
+  animation: jump 5s infinite;
   top: 0;
   left: 50%;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 10px solid #fff;
+  border-bottom: 10px solid #fff;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
 }
+
     .un {
       display: inline-block;
       color: rgba(255,255,255,0.8)
@@ -139,24 +116,18 @@
       <div class="carousel-item active">
         <img src="https://i.kinja-img.com/gawker-media/image/upload/s--uGlCJcn5--/c_scale,f_auto,fl_progressive,q_80,w_800/zskle8pr6kignbkaz06j.jpg" alt="..." height="100%" width="100%">
         <div class="carousel-caption d-none d-md-block">
-          <h3>Welcome to WebDevelop & Consolting Club!</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </div>
       </div>
 
       <div class="carousel-item">
         <img src="https://i.kinja-img.com/gawker-media/image/upload/s--uGlCJcn5--/c_scale,f_auto,fl_progressive,q_80,w_800/zskle8pr6kignbkaz06j.jpg" alt="..." height="100%" width="100%">
         <div class="carousel-caption d-none d-md-block">
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
 
       <div class="carousel-item" >
         <img src="https://i.kinja-img.com/gawker-media/image/upload/s--uGlCJcn5--/c_scale,f_auto,fl_progressive,q_80,w_800/zskle8pr6kignbkaz06j.jpg" alt="..." height="100%" width="100%">
         <div class="carousel-caption d-none d-md-block">
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </div>
       </div>
     </div>
