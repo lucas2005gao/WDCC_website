@@ -11,9 +11,7 @@
   
   <!--PRELOADER-->
   <div id="preloader">
-    <p> Loading... </p>
       <div class="spinner-border" style="width: 10rem; height: 10rem;" role="status">
-        <span class="sr-only">Loading...</span>
       </div>
   </div>
   <!--/.PRELOADER END-->
