@@ -231,7 +231,7 @@
 <!-- =============================================================== -->
 
 
-<div>
+<div d="section02" >
 <h1 class="text-center leader"> Member Profile </h1>
 </div>
 
