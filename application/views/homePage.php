@@ -16,6 +16,28 @@
   </div>
   <!--/.PRELOADER END-->
 
+    <!-- process bar for check -->
+
+
+
+    <!-- <style>
+      .progress-bar {
+      height: 8px;
+      background: #4caf50;
+      width: 0%;
+    }
+    </style>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+        </div>  
+      </div> --> 
+
+
+
+
+
+
+
 
 <!-- ================================================================================= -->
 <!-- ============================ carousel and Nav Bar together======================= -->
@@ -151,10 +173,40 @@
 <!-- ================================================================================= -->
 
 
+
+
+<!-- =================================================================================== -->
+
+<div>
+  <style>
+  #white { 
+  padding-top:15px; 
+  padding-left:10px; 
+  padding-right:30px; 
+  padding-bottom:200px; 
+  border: 1px solid 000000; 
+  }
+  </style>
+  <div id="white"> 
+      
+  </div>
+</div>
+
+
+<!-- =================================================================================== -->
+
+
+
+
+
+
+
+
 <!-- =============================================================== -->
 <!-- ======================== EMILY ======================= -->
 <!-- =============================================================== -->
-<div>
+
+<div id="Emily">
   <div>
     <div style="padding-top: 30px">
       <!-- title -->
@@ -230,7 +282,7 @@
 <!-- ======================== KEVIN ======================= -->
 <!-- =============================================================== -->
 
-
+<div id="Kevin">
 <div>
 <h1 class="text-center leader"> Member Profile </h1>
 </div>
@@ -317,10 +369,53 @@
 
  </div>
  </div>
+</div>
 
 
 
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+  /*if(window.getComputedStyle(document.getElementById("222"), null).getPropertyValue('display') == "none"){
+     myFunction();
+  }*/
 
+
+function myFunction() {
+  
+
+
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  
+
+
+  // var img = document.getElementById("111");
+
+  
+
+  if(scrolled >= 5){
+   
+   
+      $(document.getElementById("Emily")).fadeIn();
+      $(document.getElementById("Kevin")).fadeIn();
+   
+   
+  }
+
+  if(scrolled <5 ){
+    
+      document.getElementById("Emily").style.display = "none";
+     document.getElementById("Kevin").style.display = "none";
+
+  }
+
+}
+
+
+
+</script>
 
 <?php 
   $this->load->view("/common/footer");
