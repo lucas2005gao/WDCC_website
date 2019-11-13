@@ -10,12 +10,6 @@
 </head>
 <body style="height: 100%">
   
-  <!--PRELOADER-->
-  <div id="preloader">
-      <div class="spinner-border" style="width: 10rem; height: 10rem;" role="status">
-      </div>
-  </div>
-  <!--/.PRELOADER END-->
 
 <!--/Smooth animation start-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -85,8 +79,8 @@ $(document).ready(function(){
   width: 60px;
   height: 60px;
   margin-left: -12px;
-  border-left: 10px solid #fff;
-  border-bottom: 10px solid #fff;
+  border-left: 10px solid #000;
+  border-bottom: 10px solid #000;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
@@ -115,34 +109,34 @@ $(document).ready(function(){
       font-size: 16px;
     }
  </style>
-  <nav class="navbar navbar-expand-sm navbar-light" style="z-index:99">
+  <nav class="navbar navbar-expand-sm navbar-light" style="z-index:99; top:-25px;">
     <a class="navbar-brand" style="color:white" href="#">
       <a class="col-lg-9 col-xs-3" href="#">
-            <img src="/assets/Image-Coming-Soon.png" style="width:50px;height:50px;">
+            <img src="/assets/images/icon_256x256.png" style="width:150px;height:150px;">
           </a>
     </a>
     <div class="collapse navbar-collapse col-lg-3 col-xs-3">
       <ul class="navbar-nav">
         <li class="nav-item un">
-          <a class="nav-link" style="color:rgba(255,255,255,0.8)" href="#">Home</a>
+          <a class="nav-link" style="color:rgba(0,0,0,0.8);font-size: 20px;" href="#">Home</a>
         </li>
         <li class="nav-item un">
-          <a class="nav-link" style="color:rgba(255,255,255,0.8)" href="#">About Us</a>
+          <a class="nav-link" style="color:rgba(0,0,0,0.8);font-size: 20px;" href="#">About Us</a>
         </li>
         <li class="nav-item un">
-          <a class="nav-link" style="color:rgba(255,255,255,0.8)" href="#">Contact</a>
+          <a class="nav-link" style="color:rgba(0,0,0,0.8);font-size: 20px;" href="#">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <section class="slider">
-  <div class="bd-example" style="margin-top: -100px">
+  <div class="bd-example" style="margin-top: -200px">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://i.kinja-img.com/gawker-media/image/upload/s--uGlCJcn5--/c_scale,f_auto,fl_progressive,q_80,w_800/zskle8pr6kignbkaz06j.jpg" alt="..." height="100%" width="100%">
+        <img src="/assets/images/cover_photo_V1.png" alt="..." height="60%" width="100%">
         <div class="carousel-caption d-none d-md-block">
         </div>
       </div>
