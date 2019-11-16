@@ -218,7 +218,7 @@ $(document).ready(function(){
         right: 0;
       }
   </style>
-  <div class="row" style="padding-left: 30px; padding-right:30px; padding-top:50px; padding-bottom: 80px">
+  <div class="row" style="padding-left: 30px; padding-right:30px; padding-top:50px; padding-bottom: 80px margin-left:0; margin-right:0;">
     <div class="col" style="text-align:center">
       <img src="https://image.flaticon.com/icons/svg/1256/1256650.svg" alt="team icon" style="width:50px;height:50px;">
       <h4> Our Team </h4>
